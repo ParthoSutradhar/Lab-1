@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+
+<body>
+
+
+    <div>
+        <form method="POST" action="/app/Registration.php">
+            <fieldset>
+                <legend>
+                    Registration
+                </legend>
+                <table width="100%">
+                    <table width="100%">
+                        <tr>
+                            <td>Name</td>
+                            <td>
+                                :
+                                <input type="text" name="username" required />
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table width="100%">
+                        <tr>
+                            <td>Email</td>
+                            <td>
+                                :
+                                <input type="email" name="username" required />
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+
+                    <table width="68%">
+                        <tr>
+                            <td>Username</td>
+                            <td>
+                                :
+                                <input type="text" name="username" required />
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+
+                    <table width="70%">
+                        <tr>
+                            <td>Password</td>
+                            <td>
+                                :
+                                <input type="text" name="username" required />
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table width="45%">
+                        <tr>
+                            <td>Confirm Password</td>
+                            <td>
+                                :
+                                <input type="text" name="confirmPassword" required />
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+
+                    <fieldset>
+                        <legend>
+                            Gender
+                        </legend>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </fieldset>
+                    <hr>
+                    <fieldset>
+                        <legend>Date of Birth</legend>
+                        <input type="text" size="1"/>/
+                        <input type="text" size="1"/>/
+                        <input type="text" size="1"/> (dd/mm/yyyy)
+                    </fieldset>
+                    <hr>
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Reset"/>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
